@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav style="z-index: 100" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <a class="navbar-brand" href="#"><span class="text-danger font-bold">Ghaith</span> Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul style=" font-size: 25px;" class="navbar-nav m-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-danger" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">favorite</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact me</a>
+                </li>
+            </ul>
+            <li>
+                <button style="border-radius: 30px; width: 200px;" class="btn btn-danger my-2 my-sm-0 " type="submit">DOWNLOAD NOW</button>
+            </li>
+        </div>
+
+    </nav>
+    <header style="width: 100%; height: 100vh; position: relative;top: 0;z-index: -5">
+        <img style="width: 100%; height: 100%; position: absolute;top: 0;z-index: -5" src="imgs/adult-business-computer-374720-1.jpg" alt="sorry can't find image :( " class="img-fluid">
+        <div class="overlay">
+            <div id="first-h1" class="first-h1">
+                <h4 class="text-danger">Got Ready To Start Work</h4>
+                <h1 class=" text-white">I'm <span class="text-danger">Develober</span></h1>
+                <h1 id="GAA" class=" h1 text-white"></h1>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="about pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mt-5">
+                    <div style="position: relative" class="my-img ">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mt-5 ">
+                    <div id="left">
+                        <h4 class="text-danger">About Me</h4>
+                        <h2>Why Hire Me In Your Next Project?</h2>
+                        <p class="text-justify" style="font-size: 23px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque ornare est, ut dictum mauris elementum a. Nulla facilisis tellus vitae euismod mattis. Aenean vitae nisi nibh. Maecenas vel eros vel eros maximus iaculis. Maecenas tempor eget leo et posuere. In hac habitasse platea dictumst. Integer at neque sit amet est pellentesque iaculis nec et ligula. Curabitur venenatis justo ultricies, dignissim metus vitae</p>
+                        <button style="border-radius: 30px; width: 200px;" class="btn btn-danger my-2 my-sm-0 " type="submit">DOWNLOAD CV</button>
+                        <button id="RM" style="border-radius: 30px; width: 200px;" class="btn btn-danger  my-md-2 x" type="submit">READ MORE</button>
+                    </div>
+
+                    <div style="display: none" id="modal">
+                        <span style="color: antiquewhite;font-size: 30px; cursor: pointer" id="close">&times;</span>
+                        <p style="font-size: 27px" class="text-justify" id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque ornare est, ut dictum mauris elementum a. Nulla facilisis tellus vitae euismod mattis. Aenean vitae nisi nibh. Maecenas vel eros vel eros maximus iaculis. Maecenas tempor eget leo et posuere. In hac habitasse platea dictumst. Integer at neque sit amet est pellentesque iaculis nec et ligula.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="edu pb-5">
+        <div class="container">
+            <div class="row">
+                <div style="border-left: 2px dotted #DC3545" class="col-sm-12 col-md-6 mt-5">
+                    <h2 style="text-decoration: underline; text-decoration-color: #DC3545">My Education</h2>
+                    <p class="text-justify" style="font-size: 23px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque ornare est, ut dictum mauris elementum a. Nulla facilisis tellus vitae euismod mattis. Aenean vitae nisi nibh. Maecenas vel eros vel eros maximus iaculis. Maecenas tempor eget leo et posuere.</p>
+                    <p class="text-danger">Codeleader</p>
+                </div>
+                <div class="col-sm-12 col-md-6 mt-5 ">
+                    <h2 style="text-decoration: underline; text-decoration-color: #DC3545">My Skills</h2>
+                    <h4 class="mt-4
+                    ">HTML</h4>
+                    <div style="border: 2px solid #DC3545; border-radius: 40px" class="progress bg-transparent">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>CSS</h4>
+                    <div style="border: 2px solid #DC3545; border-radius: 40px" class="progress bg-transparent">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>JS</h4>
+                    <div style="border: 2px solid #DC3545; border-radius: 40px" class="progress bg-transparent">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>Bootstrap 4</h4>
+                    <div style="border: 2px solid #DC3545; border-radius: 40px" class="progress bg-transparent">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h4>Fotoshop</h4>
+                    <div style="border: 2px solid #DC3545; border-radius: 40px" class="progress bg-transparent">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: #333; height: 100px; font-size: 25px; color: antiquewhite; text-align: center; line-height: 100px">
+        Copyright &copy; Reserved To Ghaith ❤
+    </footer>
+    <div style="left: 95%" id="up" class="up fixed-bottom">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-90deg-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z" />
+        </svg>
+    </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
